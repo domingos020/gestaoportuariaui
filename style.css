@@ -1,0 +1,75 @@
+body {
+  background-color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  background-color: #2C3E50;
+  color: white;
+  padding: 20px;
+}
+
+nav {
+  background-color: #3498DB;
+  color: white;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #2980B9;
+}
+
+main {
+  padding: 20px;
+}
+
+.info {
+  margin-bottom: 20px;
+}
+
+.botao {
+  background-color: #3498DB;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+footer {
+  background-color: #2C3E50;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
